@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib ./src/index.ts",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/vue-outils.common.js",
   "dependencies": {
+    "ant-design-vue": "^1.7.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
