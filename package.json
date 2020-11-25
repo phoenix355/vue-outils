@@ -1,7 +1,7 @@
 {
   "name": "vue-outils",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "deploy": "bash deploy.sh",
     "dev": "vuepress dev docs",
