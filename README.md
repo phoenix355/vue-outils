@@ -1,24 +1,25 @@
+<!--
+ * @Description: 
+ * @Autor: 钟文俊
+ * @Date: 2020-11-20 17:51:00
+ * @LastEditors: 钟文俊
+ * @LastEditTime: 2020-12-15 15:12:27
+-->
 # vue-outils
 
-## Project setup
+基于vue的工具组件集合
+
+## 安装使用
 ```
-yarn install
+yarn add vue-outils
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+### 快速开始
+``` js
+import vueOutils from 'vue-outils'
 ```
 
-### Lints and fixes files
+### 文档
 ```
-yarn lint
+查阅文档：https://phoenix355.github.io/vue-outils
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
