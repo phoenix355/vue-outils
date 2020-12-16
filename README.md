@@ -15,6 +15,6 @@ Vue.use(vueOutils)
 ```
 
 ### 文档
-```
-查阅文档：https://phoenix355.github.io/vue-outils/.
-```
+
+查阅文档：https://phoenix355.github.io/vue-outils/
+
