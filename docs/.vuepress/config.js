@@ -24,8 +24,16 @@ module.exports = {
           title: "开发指南",
           collapsable: false,
           children: [
-            // { title: "安装", path: "/guide/" },
-            { title: "快速上手", path: "/guide/fast" }
+            { title: "安装", path: "/guide/" },
+            { title: "快速上手", path: "/guide/fast" },
+            { 
+              title: '指令集合', 
+              path: '/guide/directives/remove-node',
+              children: [
+                { title: '删除元素指令(remove-node)', path: '/guide/directives/remove-node' },
+                { title: '删除元素指令(remove-node1)', path: '/guide/directives/remove-node1' },
+              ]
+            }
           ],
         },
       ],
